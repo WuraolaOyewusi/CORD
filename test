@@ -1,0 +1,5 @@
+sample = https://github.com/WuraolaOyewusi/CORD/blob/master/scatter.html
+
+file_name = sample
+open(file_name, 'wb').write(html.encode('utf-8'))
+print('Open %s in Chrome or Firefox.' % file_name)
